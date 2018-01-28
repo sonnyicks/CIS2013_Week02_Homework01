@@ -42,7 +42,7 @@ int main (){
 	if (math_sign == '/'){
 	calculated_solution=(first_number/second_number);
 	invalid_response=false;}
-	if (invalid_response==false){cout << "The solution is " << calculated_solution;}
+	if (invalid_response==false){cout << first_number << math_sign << second_number << "=" << calculated_solution;}
 	else{cout << "Invalid response - \n";}}
 	cout << "\n" << "Would you like to perform another calculation? Y/N: ";
 	cin >> yes_or_no;
